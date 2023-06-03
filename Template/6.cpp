@@ -6,6 +6,10 @@ int main()
     cin>>ntest;
     while(ntest--)
     {
+        int n,m;
+        cin>>n>>m;
+        vector<string> a(n , "");
+        for(auto& x : a)  cin>>x;
         cout<<endl;
     }
 }
